@@ -3,6 +3,7 @@
 :root {
   --clr1: #222;
   --clr2: #465b52;
+  --clr3: #e3e6f3;
 }
 /* var(--clr1); */
 
@@ -54,6 +55,24 @@ body {
 }
 
 /* Header Start */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: #e3e6f3;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+}
 
 /* Home Page */
 
