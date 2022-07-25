@@ -77,6 +77,8 @@ body {
 #navbar li{
   list-style: none;
   padding: 0 20px;
+
+  position: relative;
 }
 
 #navbar li a {
@@ -88,8 +90,21 @@ body {
   transition: 0.3s ease;
 }
 
-#navbar li a:hover {
+#navbar li a:hover,
+#navbar li a.active {
   color:  var(--clr6);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: var(--clr6);
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+
 }
 /* Home Page */
 
