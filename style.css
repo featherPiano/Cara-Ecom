@@ -80,7 +80,6 @@ body {
 
   position: relative;
 }
-
 #navbar li a {
   text-decoration: none;
   font-size: 16px;
@@ -104,7 +103,40 @@ body {
   position: absolute;
   bottom: -4px;
   left: 20px;
+}
 
+#hero {
+  background-image: url("img/hero4.png");
+  background-position: top 25% right 0;
+  background-size: cover;
+  height:90vh;
+  width: 100%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+#hero h4 {
+  padding-bottom: 15px
+}
+#hero h1 {
+  color: var(--clr6)
+}
+#hero button {
+  background-image: url(img/button.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+
+  cursor: pointer;
+
+  color: var(--clr6);
+  padding: 14px 80px 14px 65px;
+  font-weight: 700;
+  font-size: 15px;
 }
 /* Home Page */
 
