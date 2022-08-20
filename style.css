@@ -97,7 +97,6 @@ body {
 }
 
 /* Home Page */
-
 #header {
   display: flex;
   align-items: center;
@@ -530,6 +529,7 @@ footer .copyright {
   width: 100%; 
   text-align: center;
 }
+
 /* Shop Page */
 #page-header {
   background-image: url(img/banner/b1.jpg);
@@ -567,9 +567,6 @@ footer .copyright {
 }
 
 /* Single Product */
-#prodetails {
-
-}
 #prodetails .single-pro-image {
   width: 40%;
   margin-right: 50px;
