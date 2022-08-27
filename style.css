@@ -629,6 +629,7 @@ footer .copyright {
 
 /* Start Media Query */
 
+/* IPAD SCREEN SIZE */
 @media (max-width: 799px) {
   .section-p1 {
     padding: 40px 40px;
@@ -723,6 +724,7 @@ footer .copyright {
   }
 }
 
+/* IPHONE X SCREEN SIZE */
 @media (max-width: 477px) {
   .section-p1 {
     padding: 20px;
@@ -775,4 +777,18 @@ footer .copyright {
   footer .copyright {
     text-align: start;
   }
+
+  /* Single Product */
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+  }
+  #prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #prodetails .single-pro-details {
+    width: 100%;
+  }
+
 }
