@@ -620,7 +620,9 @@ footer .copyright {
   line-height: 25px;
 }
 /* Blog Page */
-
+#page-header.blog-header {
+  background-image: url(img/banner/b19.jpg);
+}
 /* About Page */
 
 /* Contact Page */
