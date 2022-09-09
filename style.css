@@ -619,6 +619,7 @@ footer .copyright {
 #prodetails .single-pro-details span {
   line-height: 25px;
 }
+
 /* Blog Page */
 #page-header.blog-header {
   background-image: url(img/banner/b19.jpg);
@@ -631,6 +632,7 @@ footer .copyright {
   display: flex;
   align-items: center;
   width: 100%;
+  padding-bottom: 90px;
 
   position: relative;
 }
