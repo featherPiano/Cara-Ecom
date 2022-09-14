@@ -685,7 +685,9 @@ footer .copyright {
   z-index: -9;
 }
 /* About Page */
-
+#page-header.about-header {
+  background-image: url(img/about/banner.png);
+}
 /* Contact Page */
 
 /* Cart Page */
