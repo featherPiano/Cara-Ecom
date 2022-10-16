@@ -903,4 +903,16 @@ footer .copyright {
   #about-head {
     flex-direction: column;
   }
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #about-head div {
+    padding-left: 0px;
+  }
+  #about-app .video {
+    width: 100%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+  }
 }
