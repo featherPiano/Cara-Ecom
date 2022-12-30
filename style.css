@@ -1014,4 +1014,26 @@ footer .copyright {
     height: 100%;
     margin: 30px auto 0 auto;
   }
+  /* Contact Page */
+  #contact-details {
+    flex-direction: column;
+  }
+  #contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #contact-details .map {
+    width: 100%;
+  }
+  #form-details {
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+  }
+  #form-details form {
+    width: 100%;
+    margin-bottom: 30px;
+    
+  }
+
 }
